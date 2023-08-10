@@ -1,2 +1,2 @@
 # SurveyForm-freeCodeCamp
-HTML/CSS Project.
+HTML CSS Project.
