@@ -1,0 +1,82 @@
+
+*{
+  margin:0%;
+  box-sizing: border-box;
+}
+body{
+background-image: url(/images/mona-eendra-vC8wj_Kphak-unsplash.jpg);
+background-position: bottom ;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+width:100%;
+}
+form{
+  width: 40%;
+  background-color: #816058c6;
+  padding: 40px;
+  margin: 0px auto;
+  margin-bottom: 30px; 
+  height: auto;
+  color: aliceblue;
+  
+}
+header{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: larger;
+}
+label {
+  display: block;
+  padding-top: 20px;
+  font-size: larger;
+}
+button{
+ display: block;
+ width: 70%;
+ margin: 0 auto;
+ margin-top: 30px;
+ background-color: #AF9BA4;
+ padding: 10px;
+
+}
+textarea{
+  height:100px;
+}
+select, .inp{
+  width: 100%;
+  padding: 3px;
+  background-color: #C6B6B7;
+  border: none;
+  margin-top: 10px;
+  color: grey;
+}
+
+@media screen and (max-width:600px){
+  form{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px; 
+    font-size: small;
+  }
+  header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: small;
+  }
+  label {
+    display: block;
+    padding-top: 10px;
+  }
+  button{
+    margin-top: 10px;
+    padding: 5px;
+    font-size:small ;
+   }
+   textarea{
+    height:50px;
+  }
+
+}
